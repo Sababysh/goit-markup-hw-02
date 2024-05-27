@@ -51,6 +51,16 @@ body {
 
 .head-address {
     font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.contact-item:hover,
+.contact-item:focus {
+    color: #404BBF;
 }
 
 .hero {
@@ -69,36 +79,22 @@ body {
 
 .order-btn {
     font-family: "Roboto", "sans-serif";
-    background-color: #4D5AE5;
     color: #FFFFFF;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    cursor: pointer;
 }
 
-
-button {
-    cursor: pointer;
-    /* font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #FFFFFF; */
-    /* border-radius: 4px; */
-    /* padding: 16px 32px; */
-    /* width: 169px; */
-    /* height: 56px; */
-    /* box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15); */
+.btn-ground {
     background: #4D5AE5;
 }
 
-button:hover,
-button:focus {
-    color: #404BBF;
+.btn-ground:hover,
+.btn-ground:focus {
+    background: #404BBF;
 }
-
 
 /* Our Team Section */
 .our-team-title {
