@@ -81,6 +81,9 @@ a {
 
 .head-address {
     font-style: normal;
+}
+
+.address-list {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -88,8 +91,8 @@ a {
     color: #434455;
 }
 
-.contact-item:hover,
-.contact-item:focus {
+.address-list:hover,
+.address-list:focus {
     color: #404BBF;
 }
 
@@ -197,7 +200,7 @@ a {
 
 /* #region Section 4 Our Portfolio */
 
-.our-portfolio {}
+/* .our-portfolio {} */
 
 .portfolio-title {
     font-weight: 700;
@@ -209,9 +212,9 @@ a {
     color: #2E2F42;
 }
 
-.portfolio-list {}
+/* .portfolio-list {}
 
-.portfolio-item {}
+.portfolio-item {} */
 
 .portfolio-subtitle {
     font-weight: 500;
