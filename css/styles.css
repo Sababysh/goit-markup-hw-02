@@ -6,7 +6,7 @@ body {
     color: #434455 
 }
 
-/* .visually-hidden {
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -18,7 +18,7 @@ body {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-} */
+}
 
 a {
     text-decoration: none;
@@ -153,6 +153,11 @@ a {
 /* #endsection2 Features */
 
 /* Our Team Section */
+
+.our-team {
+    background: #F4F4FD;
+}
+
 .our-team-title {
     font-weight: 700;
     font-size: 36px;
@@ -162,6 +167,27 @@ a {
     color: #2E2F42;
 }
 
+/* .our-team-list {}
+
+.our-team-item {} */
+
+.our-team-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+}
+
+.our-team-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
 
 /* Our Team End Section */
 
