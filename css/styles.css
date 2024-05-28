@@ -161,15 +161,18 @@ a {
 .our-team-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
+    text-transform: capitalize;
 }
 
-/* .our-team-list {}
+.our-team-list {
+    background-color: #FFFFFF;
+}
 
-.our-team-item {} */
+/* .our-team-item {} */
 
 .our-team-subtitle {
     font-weight: 500;
