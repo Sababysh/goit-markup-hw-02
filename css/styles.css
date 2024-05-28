@@ -1,13 +1,37 @@
+/* Base style */
 body {
     font-family: "Roboto", sans-serif;
+    color: #2E2F42;
     background-color: #FFFFFF;
-    color: #434455 
+    /* color: #434455  */
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+/* End Base style */
+
+/* Components */
 
 /* Header  */
 
-/* .header {} */
+/* .page-header {} */
 
 /* .header-nav {} */
 
@@ -49,6 +73,11 @@ body {
     letter-spacing: 0.02em;
     color: #2E2F42;}
 
+.nav-link:hover,
+.nav-link:focus {
+    color: #404bbf
+}
+
 .head-address {
     font-style: normal;
     font-weight: 400;
@@ -68,7 +97,6 @@ body {
 }
 
 .hero-title {
-    
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -95,6 +123,34 @@ body {
 .btn-ground:focus {
     background: #404BBF;
 }
+
+/* #section2 Features */
+
+/* .Features {}
+
+.visually-hidden {}
+
+.features-list {}
+
+.features-item {} */
+
+.features-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.features-text {
+    /* font-weight: 400; */
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* #endsection2 Features */
 
 /* Our Team Section */
 .our-team-title {

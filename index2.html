@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebStudio</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      .header,
+      .footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 50px;
+      }
+      .header .nav {
+        display: flex;
+        gap: 20px;
+      }
+      .header .contact-info {
+        display: flex;
+        gap: 20px;
+      }
+      .main {
+        text-align: center;
+        padding: 50px 20px;
+      }
+      .main .hero {
+        background-color: #333;
+        color: #fff;
+        padding: 100px 20px;
+      }
+      .main .hero h1 {
+        margin: 0;
+      }
+      .main .hero .btn {
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 20px;
+        text-decoration: none;
+        margin-top: 20px;
+        display: inline-block;
+      }
+      .features,
+      .team {
+        padding: 50px 20px;
+      }
+      .features .feature {
+        display: inline-block;
+        width: 23%;
+        vertical-align: top;
+        text-align: left;
+        margin: 1%;
+      }
+      .team .member {
+        display: inline-block;
+        width: 23%;
+        vertical-align: top;
+        text-align: center;
+        margin: 1%;
+      }
+      .team .member img {
+        border-radius: 50%;
+        width: 100%;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <h1>WEBSTUDIO</h1>
+      </div>
+      <nav class="nav">
+        <a href="#">Студія</a>
+        <a href="#">Портфоліо</a>
+        <a href="#">Контакти</a>
+      </nav>
+      <div class="contact-info">
+        <p>info@webstudio.com</p>
+        <p>+11 (000) 111-11-11</p>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="hero">
+        <h1>Ефективні рішення для вашого бізнесу</h1>
+        <a href="#" class="btn">Замовити послугу</a>
+      </section>
+
+      <section class="features">
+        <div class="feature">
+          <h2>Стратегія</h2>
+          <p>
+            Наша мета - визначити бізнес-проблему та знайти ідеальне та
+            креативне рішення.
+          </p>
+        </div>
+        <div class="feature">
+          <h2>Пунктуальність</h2>
+          <p>
+            Доставляємо ключове повідомлення аудиторії бренду у найкоротші
+            терміни.
+          </p>
+        </div>
+        <div class="feature">
+          <h2>Старанність</h2>
+          <p>
+            Досліджуємо та підтверджуємо бренди, що представляють найсильніші
+            можливості цифрового зростання.
+          </p>
+        </div>
+        <div class="feature">
+          <h2>Технології</h2>
+          <p>
+            Зосереджуємося на цифрових досвідах, маємо глибоку пристрасть до
+            вирішення проблем.
+          </p>
+        </div>
+      </section>
+
+      <section class="team">
+        <h2>Наша команда</h2>
+        <div class="member">
+          <img src="path/to/mark-guerrero.jpg" alt="Mark Guerrero" />
+          <p>Марк Герреро</p>
+          <p>Дизайнер продуктів</p>
+        </div>
+        <div class="member">
+          <img src="path/to/tom-ford.jpg" alt="Tom Ford" />
+          <p>Том Форд</p>
+          <p>Frontend розробник</p>
+        </div>
+        <div class="member">
+          <img src="path/to/camila-garcia.jpg" alt="Camila Garcia" />
+          <p>Каміла Гарсія</p>
+          <p>Маркетинг</p>
+        </div>
+        <div class="member">
+          <img src="path/to/daniel-wilson.jpg" alt="Daniel Wilson" />
+          <p>Даніель Вілсон</p>
+          <p>UI дизайнер</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <h2>WEBSTUDIO</h2>
+        <p>
+          Збільшуйте потік клієнтів та досягайте успіху в бізнесі за допомогою
+          цифрових маркетингових рішень.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
