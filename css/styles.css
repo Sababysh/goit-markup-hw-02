@@ -194,6 +194,41 @@ a {
 
 /* Our Team End Section */
 
+/* #region Section 4 Our Portfolio */
+
+.our-portfolio {}
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+}
+
+.portfolio-list {}
+
+.portfolio-item {}
+
+.portfolio-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.portfolio-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* #endregion Section 4 Our Portfolio */
+
 ul, ol {
     list-style: none;
 }
@@ -209,7 +244,9 @@ footer {
 }
 
 .footer-paragraph {
+    font-weight: 400;
+    font-size: 16px;
     line-height: 1.5;
-    color: #F4F4FD;
     letter-spacing: 0.02em;
+    color: #F4F4FD;
 }
