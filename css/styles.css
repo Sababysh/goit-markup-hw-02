@@ -168,11 +168,11 @@ a {
     text-transform: capitalize;
 }
 
-.our-team-list {
+/* .our-team-list {} */
+
+.our-team-item {
     background-color: #FFFFFF;
 }
-
-/* .our-team-item {} */
 
 .our-team-subtitle {
     font-weight: 500;
