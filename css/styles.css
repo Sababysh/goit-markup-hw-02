@@ -74,7 +74,7 @@ body {
 
 .head-address {
     font-style: normal;
-    margin-left: auto;
+    /* margin-left: auto; */
 }
 
 .address-list {
