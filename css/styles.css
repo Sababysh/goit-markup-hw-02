@@ -59,7 +59,7 @@ body {
     color: #404bbf;
     }
     
-.header-nav-item:focus {
+.header-nav-link:focus {
     color: #404bbf;
     }
 
